@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
+
+.calculator {
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid rgb(32, 110, 226);
+    user-select: none;
+    background:  rgb(32, 110, 226);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+
+.formulaScreen {
+    position: relative;
+    height: 20px;
+    padding-right: 5px;
+    border-radius: 5px 5px 0 0;
+    font-family: digital;
+    display: flex;
+    white-space: nowrap;
+    justify-content: flex-end;
+    overflow: hidden;
+    background: linear-gradient(rgb(126, 206, 243),rgb(214, 239, 252));
+}
+.formulaScreen::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 20px;
+    width: 10px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(rgb(126, 206, 243),rgb(214, 239, 252));
+}
+
+
+.outputScreen {
+    height: 30px;
+    padding-right: 5px;
+    text-align: right;
+    border-radius: 0 0 5px 5px;
+    font-family: digital;
+    font-size: 22px;
+    line-height: 30px;
+    background: rgb(214, 239, 252);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    margin: 2.5px;
+    outline: none;
+    border-radius: 5px;
+    font: 20px Share Tech Mono, monospace;
+    color: rgb(32, 110, 226);
+    background: rgb(126, 206, 243);
+}
+
+.author {
+    width: 250px;
+    text-align: center;
+    font-family: Share Tech Mono, sans;
+    margin-top: 15px;
+}
+
+.author a {
+    text-decoration: none;
+    color: #00264d;
+    line-height: 26px;
+}
+  
+
+
+
+
+
+
+
+
+
