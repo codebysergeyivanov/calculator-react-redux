@@ -78,7 +78,7 @@ class App extends Component {
           />
         </div>
         <div className="author">This project have made using the React and Redux <br />
-          <a target="_blank" href=""> 
+          <a target="_blank" href="https://github.com/codebysergeyivanov/calculator-react-redux"> 
             Link to GitHub
           </a>
         </div>
